@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "My Tech stack",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently - FULL-Stack Web Intern @ETHNUS",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,66 +72,83 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Book My Stay - Hotel Booking Website",
+    des: "Hotel booking platform built with the MERN Stack (MongoDB, Express, React, Node.js). This full-stack application allows users to search for hotels in various cities, explore different property types, and view featured hotels. Additionally, there is an Admin Panel that provides management features for administrators to view users and hotel listings",
+    img: "/landing-page.png",
+    iconLists: [
+      "/mongo.svg",
+      "/ex.svg",
+      "/re.svg",
+      "/node.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/cloudinary.svg",
+      "/jwt.svg",
+    ],
+    link: "https://hotel-booking-mern-fullstack.onrender.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "SUPAMANAGE - User Management System",
+    des: "The User Management App is a React, Redux, and Supabase-based platform for managing user data. It allows admins to perform CRUD operations—Create, Read, Update, and Delete—on user records. With a real-time database, secure authentication, and an intuitive UI,.",
+    img: "/supabase.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/three.svg",
+      "/c.svg",
+      "/supabase.svg",
+    ],
+    link: "https://supamanage.netlify.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "E-Commerce Website - Amazon Clone",
+    des: "Amazon Clone built with React, Tailwind CSS, and Redux. It simulates a fully responsive e-commerce website with functionalities such as product listings, a shopping cart, and a checkout system..",
+    img: "/amazon.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/redux.svg"],
+    link: "https://e-commerce-website-amazon-clone.netlify.app/",
   },
+
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Weather Application",
+    des: "Dynamic Weather Application according to the given city it is integrated with openweather API to fetch the weather data and display it on the UI",
+    img: "/weather.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
+    link: "https://rahul-vijaykumar-kulkarni.github.io/Weather-App/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Rahul was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Rahul's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Rahul is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Collaborating with Rahul was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Rahul's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Rahul is the ideal partner.",
+    name: "David Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Collaborating with Rahul was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Rahul's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Rahul is the ideal partner.",
+    name: " Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Collaborating with Rahul was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Rahul's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Rahul is the ideal partner.",
+    name: "Mike ",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Rahul was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Rahul's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Rahul is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -205,13 +222,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Rahul-vijaykumar-kulkarni",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://www.linkedin.com/in/rahul-vijaykumar-kulkarni-a8310827a",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/rahul-vijaykumar-kulkarni-a8310827a",
   },
 ];

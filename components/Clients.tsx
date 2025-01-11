@@ -12,6 +12,11 @@ const Clients = () => {
         Kind words from
         <span className="text-purple"> satisfied clients</span>
       </h1>
+      <div>
+        <p className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10  font-light ">
+          Just for Demonstration
+        </p>
+      </div>
 
       <div className="flex flex-col items-center max-lg:mt-10">
         <div
